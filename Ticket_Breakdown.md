@@ -28,7 +28,7 @@ Create a database table called `FacilityAgent` with the following columns:
 - `updated_at` - the date the record was last updated
 
 Implementation Details:
-- Add the table schema under `db/schema.prisma` with primary key and foreign key constraints
+- Add the table schema under `db/schema.prisma` with primary key and foreign key constraints ( assumed prisma is used for managing db schema)
 - Use `npx run db_migrate` to create a new migration file
 
 
