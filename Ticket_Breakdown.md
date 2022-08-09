@@ -17,7 +17,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ## Your Breakdown Here
 
-Ticket 1:
+**Ticket 1:**
 
 Create a database table called `FacilityAgent` with the following columns:
 - `id` - primary key
@@ -42,7 +42,7 @@ Acceptance Criteria:
 Story Points: 1
 
 
-Ticket 2:
+**Ticket 2:**
 
 Create a function `postFacilityAgentCustomId` that creates a new record with  `custom_id` field in `FacilityAgent` table. The function should accept the following parameters:
 - `facility_id` - the id of the Facility the Agent is working for
@@ -69,7 +69,7 @@ Acceptance Criteria:
 Story Points: 1
 
 
-Ticket 3:
+**Ticket 3:**
 
 Create a function `getFacilityAgentCustomId` that returns the custom id of the Agent for the Facility. The function should accept the following parameters:
 - `facility_id` - the id of the Facility the Agent is working for
@@ -86,7 +86,7 @@ Acceptance Criteria:
 
 Story Points: 1
 
-Ticket 3:
+**Ticket 4:**
 
 Use `custom_id` from the `FacilityAgent` table to while generating reports for the Facilities.
 
